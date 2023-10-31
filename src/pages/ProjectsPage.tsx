@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {projectAPI} from './projectAPI';
 // import ProjectDetail from './ProjectDetail';
-import {Project} from '../projects/Project';
+import {Project} from '../types/IProject';
 import {useParams} from 'react-router-dom';
 import mockProjects from '../projects/MockProjects';
 import ProjectList from '../components/ProjectList';
@@ -30,7 +30,8 @@ function ProjectPage(props: any) {
   return (
     <div>
       <>
-        <h1>Projects List</h1>
+        <h1 className="font-semibold text-2xl m-4">Projects List</h1>
+
         {/* 
         {loading && (
           <div className="center-page">

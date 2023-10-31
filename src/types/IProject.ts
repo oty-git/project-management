@@ -2,7 +2,7 @@ export interface CommentType {
   userName: string;
   comment: string;
 }
-export interface Project {
+export interface IProject {
   id: number;
   name: string;
   description: string;

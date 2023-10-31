@@ -1,4 +1,4 @@
-import {Project, CommentType} from './Project';
+import {Project, CommentType} from '../types/IProject';
 
 const comments1: CommentType[] = [
   {userName: 'User1', comment: 'Це перший коментар до проєкту 1'},
